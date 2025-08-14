@@ -20,3 +20,4 @@ pdfplumber
 selenium
 webdriver-manager
 chromedriver-autoinstaller
+scikit-learn
