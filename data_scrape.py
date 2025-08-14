@@ -93,7 +93,7 @@ async def ping_claude(question_text, relevant_context="", max_tries=3):
                 "content-type": "application/json"
             }
             payload = {
-                "model": "claude-3-5-sonnet-20241022",
+                "model": "claude-sonnet-4-20250514",
                 "max_tokens": 4096,
                 "messages": [
                     {"role": "user", "content": f"{relevant_context}\n\n{question_text}" if relevant_context else question_text}
